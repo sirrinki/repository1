@@ -1,0 +1,23 @@
+
+<form id="2015367676">
+<property name="subject" value=""/>
+<property name="name" value="project1.TestDemo-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="1" name="pLastName" type="InputText" id="263398525">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;pLastName (pLastName)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="pLastName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="pFirstName" type="InputText" id="2111389555">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;pFirstName (pFirstName)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="pFirstName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="pFirstName" value="java.lang.String" id="pFirstName"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="pLastName" value="java.lang.String" id="pLastName"/>
+</form>
