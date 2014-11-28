@@ -55,6 +55,18 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     ],
     "displayName" : "REST",
     "icon" : "defaultservicenodeicon.png"
-  ]
+  ],
+  [
+     "name" : "DSTService", 
+     "parameters" : [ 
+        "firstName" : new StringDataType(), 
+        "lastName" : new StringDataType()
+     ], 
+     "results" : [ 
+         "Result" : new ObjectDataType("java.util.Map") 
+     ], 
+     "displayName" : "DST Service", 
+     "icon" : "../../../global/defaultservicenodeicon.png" 
+   ]
 
 ]
