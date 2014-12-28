@@ -25,13 +25,6 @@
 <property name="outputBinding" value="ssn"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="3" name="citizenServiceValue" type="InputText" id="757099152">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;citizenServiceValue (citizenServiceValue)quot;"/>
-<property name="inputBinding" value=""/>
-<property name="outputBinding" value="citizenServiceValue"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
 <dataHolder inputId="" name="#9BCAFA" type="basicType" outId="citizenServiceValue" value="java.lang.String" id="citizenServiceValue"/>
 <dataHolder inputId="" name="#B29FE4" type="basicType" outId="docsValid" value="java.lang.Boolean" id="docsValid"/>
 <dataHolder inputId="" name="#0000A0" type="basicType" outId="pFirstName" value="java.lang.String" id="pFirstName"/>
