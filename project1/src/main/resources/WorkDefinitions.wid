@@ -60,8 +60,7 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
      "name" : "DBService", 
      "parameters" : [ 
         "firstNameIn" : new StringDataType(), 
-        "lastNameIn" : new StringDataType(),
-        "docsValidIn" : new StringDataType()
+        "lastNameIn" : new StringDataType()
      ], 
      "results" : [ 
          "Result" : new ObjectDataType("java.util.Map") 
