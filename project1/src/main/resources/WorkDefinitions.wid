@@ -57,16 +57,15 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
     "icon" : "defaultservicenodeicon.png"
   ],
   [
-     "name" : "DBService", 
+     "name" : "MyService", 
      "parameters" : [ 
-        "firstNameIn" : new StringDataType(), 
-        "lastNameIn" : new StringDataType(),
-        "docsValidIn" : new StringDataType()
+        "firstName" : new StringDataType(), 
+        "lastName" : new StringDataType()
      ], 
      "results" : [ 
          "Result" : new ObjectDataType("java.util.Map") 
      ], 
-     "displayName" : "DB Service", 
+     "displayName" : "My Service", 
      "icon" : "../../../global/defaultservicenodeicon.png" 
    ]
 
