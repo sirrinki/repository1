@@ -4,6 +4,10 @@ import org.kie.example.project1.Application;
 
 rule "RetractSSNApplication"
 	dialect "mvel"
+	ruleflow-group "retractfacts"
 	when
+		 $ssncardappl: SSNCardApplication( )
 	then
+		retract( $ssncardappl);
+		System.out.println("Executed Rule: " + drools.getRule().getName() );
 end
