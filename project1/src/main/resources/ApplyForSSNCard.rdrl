@@ -4,6 +4,9 @@ import org.kie.example.project1.Application;
 
 rule "ApplyForSSNCard"
 	dialect "mvel"
+	ruleflow-group "applyforssncard"
 	when
+		SSNCardApplication( ssn != null )
 	then
+		insert( new Application() );
 end
