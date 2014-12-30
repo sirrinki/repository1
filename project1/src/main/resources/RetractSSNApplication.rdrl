@@ -1,0 +1,7 @@
+import java.lang.Number;
+
+rule "RetractSSNApplication"
+	dialect "mvel"
+	when
+	then
+end
