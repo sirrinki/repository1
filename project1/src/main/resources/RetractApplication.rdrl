@@ -4,6 +4,10 @@ import org.kie.example.project1.Application;
 
 rule "RetractApplication"
 	dialect "mvel"
+	ruleflow-group "retractfacts"
 	when
+		$appl: Application()
 	then
+		retract($appl);
+		System.out.println("Executed Rule: " + drools.getRule().getName());
 end
