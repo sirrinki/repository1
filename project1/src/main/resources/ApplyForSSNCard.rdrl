@@ -6,7 +6,7 @@ rule "ApplyForSSNCard"
 	dialect "mvel"
 	ruleflow-group "applyforssncard"
 	when
-		SSNCardApplication( ssn != null )
+		SSNCardApplication( age < 50 )
 	then
 		insert( new Application() );
 end
